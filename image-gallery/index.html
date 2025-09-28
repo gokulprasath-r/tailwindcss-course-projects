@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Image Gallery</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body>
+        <div
+            class="min-h-screen bg-cyan-50 flex py-5 justify-center items-center overflow-x-auto flex flex-col"
+        >
+            <div
+                class="flex justify-end gap-5 text-center md:gap-15 w-fit md:w-[70vw] pt-5 md:pt-15 pb-15 flex-col md:flex-row md:gap-0"
+            >
+                <p class="cursor-pointer">Vector</p>
+                <p class="cursor-pointer">Illustration</p>
+                <p class="cursor-pointer">Images</p>
+                <p class="cursor-pointer">Icons</p>
+            </div>
+            <div
+                class="w-[70vw] flex justify-between items-center mb-5 flex-col md:flex-row"
+            >
+                <div
+                    class="flex justify-center items-center border-b-2 mr-0 md:mr-4 my-4 h-fit border-gray-300"
+                >
+                    <input
+                        type="text"
+                        name="Search"
+                        placeholder=" Search..."
+                        class="py-1 w-70 focus:ring-0 outline-none"
+                    />
+                    <button class="cursor-pointer">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-8 text-gray-300 duration-200 hover:scale-110"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <circle cx="10" cy="10" r="7" />
+                            <line x1="21" y1="21" x2="15" y2="15" />
+                        </svg>
+                    </button>
+                </div>
+                <button
+                    class="text-white bg-black w-80 md:w-40 pl-0 md:pl-2 py-2 rounded-sm ml-3 my-3 border-1 hover:bg-cyan-50 hover:border-1 hover:border-black hover:text-black cursor-pointer"
+                >
+                    Upload
+                </button>
+            </div>
+            <div
+                class="w-[70vw] grid gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
+            >
+                <img
+                    src="assets/image1.jpg"
+                    alt="image1"
+                    class="hover:opacity-90 cursor-pointer"
+                />
+                <img
+                    src="assets/image2.jpg"
+                    alt="image2"
+                    class="hover:opacity-90 cursor-pointer"
+                />
+                <img
+                    src="assets/image3.jpg"
+                    alt="image3"
+                    class="hover:opacity-90 cursor-pointer"
+                />
+                <img
+                    src="assets/image4.jpg"
+                    alt="image4"
+                    class="hover:opacity-90 cursor-pointer"
+                />
+                <img
+                    src="assets/image5.jpg"
+                    alt="image5"
+                    class="hover:opacity-90 cursor-pointer"
+                />
+                <img
+                    src="assets/image6.jpg"
+                    alt="image6"
+                    class="hover:opacity-90 cursor-pointer"
+                />
+            </div>
+        </div>
+    </body>
+</html>
