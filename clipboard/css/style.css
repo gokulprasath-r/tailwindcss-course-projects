@@ -1,18 +1,14 @@
 /*! tailwindcss v4.1.14 | MIT License | https://tailwindcss.com */
-@layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
-    --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-sans: "Bai Jamjuree", sans-serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-100: oklch(93.6% 0.032 17.717);
-    --text-3xl: 1.875rem;
-    --text-3xl--line-height: calc(2.25 / 1.875);
-    --font-weight-bold: 700;
+    --spacing: 0.25rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+    --color-darkGrayishBlue: hsl(210, 10%, 33%);
   }
 }
 @layer base {
@@ -164,26 +160,13 @@
   }
 }
 @layer utilities {
-  .text-3xl {
-    font-size: var(--text-3xl);
-    line-height: var(--tw-leading, var(--text-3xl--line-height));
+  .bg-darkGrayishBlue {
+    background-color: var(--color-darkGrayishBlue);
   }
-  .font-bold {
-    --tw-font-weight: var(--font-weight-bold);
-    font-weight: var(--font-weight-bold);
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
   }
-  .underline {
-    text-decoration-line: underline;
-  }
-}
-@property --tw-font-weight {
-  syntax: "*";
-  inherits: false;
-}
-@layer properties {
-  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
-    *, ::before, ::after, ::backdrop {
-      --tw-font-weight: initial;
-    }
+  .text-darkGrayishBlue {
+    color: var(--color-darkGrayishBlue);
   }
 }
