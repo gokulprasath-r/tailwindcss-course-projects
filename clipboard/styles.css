@@ -13,3 +13,31 @@
     --breakpoint-lg: 976px;
     --breakpoint-xl: 1440px;
 }
+
+@utility section-content {
+    @apply max-w-5xl  mx-auto flex flex-col items-center mb-30 mt-40 gap-6 px-8;
+}
+
+h1 {
+    @apply text-4xl md:text-5xl text-darkGrayishBlue font-bold mt-5 text-center;
+}
+
+h3 {
+    @apply text-2xl mb-5 mx-2;
+}
+
+button {
+    @apply cursor-pointer rounded-2xl p-3 text-white rounded-full px-8 hover:opacity-80;
+}
+
+body {
+    background-image: url("../assets/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width: 576px) {
+    body {
+        background-image: url("../assets/bg-header-mobile.png");
+    }
+}
