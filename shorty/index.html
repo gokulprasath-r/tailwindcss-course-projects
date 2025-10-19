@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <linkGFF
+            rel="shortcut icon"
+            type="image/png"
+            href="images/favicon-32x32.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Shorty</title>
+    </head>
+    <body>
+        <nav
+            class="flex h-20 items-center font-bold mx-0 md:mx-10 lg:mx-20 pl-10 md:pl-0 text-gray-500"
+        >
+            <div
+                class="flex flex-5/6 lg:flex-1/4 lg:justify-center justify-start"
+            >
+                <img src="./assets/logo.svg" alt="logo" />
+            </div>
+            <div class="hidden lg:flex flex flex-2/4 gap-5">
+                <a href="#">Features</a><a href="#">Prices</a
+                ><a href="#">Resources</a>
+            </div>
+            <div class="hidden lg:flex flex-1/4 gap-5 justify-center">
+                <button class="cursor-pointer">Login</button>
+                <button
+                    class="cursor-pointer rounded-full py-2 px-5 text-white bg-cyan"
+                >
+                    Sign up
+                </button>
+            </div>
+
+            <div class="flex justify-end flex-1/6 lg:hidden pr-10 md:pr-0">
+                <button
+                    id="menu-btn"
+                    type="button"
+                    class="z-40 block hamburger lg:hidden focus:outline-none"
+                >
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+        </nav>
+        <div
+            id="menu"
+            class="absolute top-20 left-5 right-5 hidden flex-col text-lg text-white bg-darkViolet rounded-lg mx-5"
+        >
+            <div
+                class="flex flex-2/4 flex-col items-center gap-5 py-10 mx-5 border-b-1"
+            >
+                <a href="#">Features</a><a href="#">Prices</a
+                ><a href="#">Resources</a>
+            </div>
+            <div class="flex flex-col flex-1/4 gap-5 p-10">
+                <button class="cursor-pointer">Login</button>
+                <button
+                    class="cursor-pointer rounded-full py-2 px-5 text-white bg-cyan"
+                >
+                    Sign up
+                </button>
+            </div>
+        </div>
+        <section>
+            <div class="flex flex-col-reverse mx-auto p-6 lg:flex-row">
+                <div
+                    class="flex flex-col space-y-10 mb-44 lg:mt-16 lg:w-1/2 xl:mb-52"
+                >
+                    <h1
+                        class="text-5xl font-bold text-center lg:text-6xl lg:max-w-md lg:text-left"
+                    >
+                        More than just shorter links
+                    </h1>
+                    <p
+                        class="text-2xl text-center text-gray-400 lg:max-w-md lg:text-left"
+                    >
+                        Build your brand's recognition and get detailed insights
+                        on how your links are performing.
+                    </p>
+                    <div class="mx-auto lg:mx-0">
+                        <a
+                            href="#"
+                            class="py-5 px-10 text-2xl font-bold text-white bg-cyan rounded-full lg:py-4 hover:opacity-70"
+                            >Get Started</a
+                        >
+                    </div>
+                </div>
+                <div class="mb-24 mx-auto md:w-180 lg:mb-0 lg:w-1/2">
+                    <img
+                        class="mt-0 lg:mt-16"
+                        src="./assets/illustration-working.svg"
+                        alt=""
+                    />
+                </div>
+            </div>
+        </section>
+        <section class="bg-gray-100">
+            <div class="max-w-4xl mx-auto p-6">
+                <form class=" flex flex-col gap-2 w-full p-10 mt-20 bg-darkViolet rounded-lg md:flex-row ">
+                    <input type="text" class="flex-1 p-3  rounded-lg placeholder-yellow-500 bg-white focus:outline-none" placeholder="Shorten a link here" >
+                    <button class="px-10 py-2 text-white bg-cyan rounded-lg hover:bg-cyanLight focus:outline-none md:py-2 cursor-pointer">
+                        Shorten It!
+                    </button>
+                </form>
+                <div class="flex flex-col md:flex-row gap-4 rounded-lg mt-10 px-8 py-6 justify-center items-center bg-white">
+                    <p class=" flex flex-1/4 text-lg font-bold">https://tailwindcss.com</p>
+                    <p class=" flex flex-2/4 justify-end text-lg font-bold text-cyan">https://rel.ink/k4IKyk</p>
+                    <div class="  flex-1/4 flex justify-center">
+                        <button class="cursor-pointer text-lg font-bold bg-cyan text-white px-6 py-2 rounded-lg">Copy</button>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-4 rounded-lg mt-10 px-8 py-6 justify-center items-center bg-white">
+                    <p class=" flex flex-1/4 text-lg font-bold">https://tailwindcss.com</p>
+                    <p class=" flex flex-2/4 justify-end text-lg font-bold text-cyan">https://rel.ink/k4IKyk</p>
+                    <div class="  flex-1/4 flex justify-center">
+                        <button class="cursor-pointer text-lg font-bold bg-cyan text-white px-6 py-2 rounded-lg">Copy</button>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-4 rounded-lg mt-10 px-8 py-6 justify-center items-center bg-white">
+                    <p class=" flex flex-1/4 text-lg font-bold">https://tailwindcss.com</p>
+                    <p class=" flex flex-2/4 justify-end text-lg font-bold text-cyan">https://rel.ink/k4IKyk</p>
+                    <div class="  flex-1/4 flex justify-center">
+                        <button class="cursor-pointer text-lg font-bold bg-cyan text-white px-6 py-2 rounded-lg">Copy</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="py-24 bg-gray-100">
+      <div class="container mx-auto px-5">
+        <h2 class="text-4xl mb-6 font-bold text-center">Advanced Statistics</h2>
+        <p class="max-w-xs mx-auto text-center text-gray-400 md:max-w-md">
+          Track how your links are performing across the web with our advanced
+          statistics dashboard.
+        </p>
+      </div>
+        </section>
+        <section  class="relative py-32 bg-gray-100">
+            <div class="relative gap-5 flex flex-col items-start px-6 mx-auto md:flex-row ">
+                <div class="hidden absolute top-24 w-10/12 left-16 h-3 bg-cyan md:block"></div>
+                <div class="absolute w-2 left-1/2 h-full -ml-1 bg-cyan md:hidden"></div>
+
+                <div class="relative flex flex-col p-6 space-y-6 bg-white rounded-lg md:w-1/3">
+                    <div class="absolute -ml-10 left-1/2 -top-10 md:left-16">
+                        <div class="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-veryDarkViolet">
+                            <img src="assets/icon-brand-recognition.svg" alt="">
+                        </div>
+                    </div>
+                    <h5 class="relative pt-6 text-xl font-bold text-center capitalize md:text-left">
+                        Brand Recognition
+                    </h5>
+                    <p class="text-center text-gray-400 md:text-left">
+                        Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content.
+                    </p>
+                </div>
+
+                <div class="relative flex flex-col mt-24 p-6 space-y-6 bg-white rounded-lg md:mt-8 md:w-1/3">
+                    <div class="absolute -ml-10 left-1/2 -top-10 md:left-16">
+                        <div class="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-veryDarkViolet">
+                            <img src="assets/icon-detailed-records.svg" alt="">
+                        </div>
+                    </div>
+                    <h5 class="pt-6 text-xl font-bold text-center capitalize md:text-left">
+                        Detailed records
+                    </h5>
+                    <p class="text-center text-gray-400 md:text-left">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+                </div>
+
+                <div class="relative flex flex-col mt-24 p-6 space-y-6 bg-white rounded-lg md:mt-16 md:w-1/3">
+                    <div class="absolute -ml-10 left-1/2 -top-10 md:left-16">
+                        <div class="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-veryDarkViolet">
+                            <img src="assets/icon-fully-customizable.svg" alt="">
+                        </div>
+                    </div>
+                    <h5 class="pt-6 text-xl font-bold text-center capitalize md:text-left">
+                        Fully customizable
+                    </h5>
+                    <p class="text-center text-gray-400 md:text-left">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+                </div>
+            </div>
+        </section>
+        <section id="boost" class="py-24 bg-darkViolet flex flex-col items-center justify-center gap-5">
+            <h1 class="text-4xl md:text-5xl font-bold text-white" >Boost your links today</h1>
+            <button
+                href="#"
+                class="cursor-pointer py-2 px-10 text-2xl font-bold text-white bg-cyan rounded-full hover:opacity-70">Get Started</button>
+        </section>
+        <section class="w-full bg-veryDarkViolet"">
+            <div class="max-w-6xl mx-auto flex flex-col lg:flex-row">
+                <div
+                    class="flex flex-col items-center lg:items-start mt-10 px-10 lg:flex-1/4"
+                >
+                    <img src="./assets/logo.svg" alt="logo" />
+                </div>
+                <div
+                    class="flex  flex-col lg:flex-row p-10 lg:flex-2/4 gap-5"
+                >
+                    <div
+                        class="flex flex-1/3  flex-col items-center gap-5 text-white"
+                    >
+                        <p class="font-bold text-white">Features</p>
+                        <a class="text-grayishViolet hover:text-cyan" href="#">Link shortening</a>
+                        <a class="text-grayishViolet hover:text-cyan" href="#">Branded links</a>
+                        <a class="text-grayishViolet hover:text-cyan" href="#">Products</a>
+                    </div>
+                    <div
+                        class="flex flex-1/3  flex-col gap-5 items-center text-white"
+                    >
+                        <p class="font-bold text-white">Resources</p>
+                        <a class="text-grayishViolet hover:text-cyan" href="#">Blog</a>
+                        <a class="text-grayishViolet hover:text-cyan" href="#">Support</a>
+                        <a class="text-grayishViolet hover:text-cyan" href="#">Developers</a>
+                    </div>
+                    <div
+                        class="flex flex-1/3  flex-col gap-5 items-center text-white"
+                    >
+                        <p class="font-bold text-white">Company</p>
+                        <a class="text-grayishViolet hover:text-cyan" href="#">About</a>
+                        <a class="text-grayishViolet hover:text-cyan" href="#">Our Team</a>
+                        <a class="text-grayishViolet hover:text-cyan" href="#">Careers</a>
+                        <a class="text-grayishViolet hover:text-cyan" href="#">Contact</a>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col items-center lg:items-end p-10 lg:flex-1/4 gap-5"
+                >
+                    <div class="flex gap-5">
+                        <img src="./assets/icon-facebook.svg" alt="facebook" />
+                        <img
+                            src="./assets/icon-instagram.svg"
+                            alt="instagram"
+                        />
+                        <img
+                            src="./assets/icon-pinterest.svg"
+                            alt="pinterest"
+                        />
+                        <img src="./assets/icon-twitter.svg" alt="twitter" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            const btn = document.getElementById("menu-btn");
+            const menu = document.getElementById("menu");
+
+            btn.addEventListener("click", navToggle);
+
+            function navToggle() {
+                btn.classList.toggle("open");
+                menu.classList.toggle("flex");
+                menu.classList.toggle("hidden");
+            }
+        </script>
+    </body>
+</html>

@@ -1,33 +1,28 @@
 @import "tailwindcss";
 
 @theme {
+    --color-cyan: hsl(180, 66%, 49%);
+    --color-cyanLight: hsl(180, 66%, 69%);
+    --color-darkViolet: hsl(257, 27%, 26%);
+    --color-red: hsl(0, 87%, 67%);
+    --color-grayishViolet: hsl(257, 7%, 63%);
+    --color-veryDarkBlue: hsl(255, 11%, 22%);
+    --color-veryDarkViolet: hsl(260, 8%, 14%);
+
+    --font-sans: "Poppins", "sans-serif";
+
     --breakpoint-sm: 480px;
     --breakpoint-md: 768px;
     --breakpoint-lg: 976px;
     --breakpoint-xl: 1440px;
-
-    --font-sans: "Josefin Sans", sans-serif;
-    --font-alata: "Alata";
 }
 
-@utility section-content {
-    @apply max-w-5xl  mx-auto flex flex-col items-center mb-30 mt-40 gap-6 px-8;
-}
-
-body {
-    scroll-behavior: smooth;
-}
-#hero {
-    background-image: url("../assets/desktop/image-hero.jpg");
+#boost {
+    background-image: url("../assets/bg-boost-desktop.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-@media (max-width: 768px) {
-    #hero {
-        background-image: url("../assets/mobile/image-hero.jpg");
-        background-position: center;
-    }
+@media (max-width: 576px) {
 }
 
 .hamburger {
@@ -47,7 +42,7 @@ body {
     top: 0;
     left: 0;
     z-index: 10;
-    background: #fff;
+    background: gray;
     transform: rotate(0);
     transition: all 0.5s;
 }
