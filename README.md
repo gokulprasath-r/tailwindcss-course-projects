@@ -1,0 +1,14 @@
+# TailwindCSS V4 Course Projects
+
+|  #  |                                                      Project                                                      |                                                 Live Demo                                                 |
+| :-: | :---------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
+| 01  | [Email Subscribe](https://github.com/gokulprasath-r/tailwindcss-course-projects/tree/master/email-subscribe-card) | [Live Demo](https://gokulprasath-r.github.io/tailwindcss-course-projects/email-subscribe-card/index.html) |
+| 02  |     [Pricing Grids](https://github.com/gokulprasath-r/tailwindcss-course-projects/tree/master/pricing-cards)      |    [Live Demo](https://gokulprasath-r.github.io/tailwindcss-course-projects/pricing-cards/index.html)     |
+| 03  |     [Product Model](https://github.com/gokulprasath-r/tailwindcss-course-projects/tree/master/product-model)      |    [Live Demo](https://gokulprasath-r.github.io/tailwindcss-course-projects/product-model/index.html)     |
+| 04  |     [Image Gallery](https://github.com/gokulprasath-r/tailwindcss-course-projects/tree/master/image-gallery)      |    [Live Demo](https://gokulprasath-r.github.io/tailwindcss-course-projects/image-gallery/index.html)     |
+| 05  |       [Login Modal](https://github.com/gokulprasath-r/tailwindcss-course-projects/tree/master/login-modal)        |     [Live Demo](https://gokulprasath-r.github.io/tailwindcss-course-projects/login-modal/index.html)      |
+| 06  |         [Clipboard](https://github.com/gokulprasath-r/tailwindcss-course-projects/tree/master/clipboard)          |      [Live Demo](https://gokulprasath-r.github.io/tailwindcss-course-projects/clipboard/index.html)       |
+| 07  |       [Loopstudios](https://github.com/gokulprasath-r/tailwindcss-course-projects/tree/master/loopstudios)        |     [Live Demo](https://gokulprasath-r.github.io/tailwindcss-course-projects/loopstudios/index.html)      |
+| 08  |            [Shortly](https://github.com/gokulprasath-r/tailwindcss-course-projects/tree/master/shorty)            |       [Live Demo](https://gokulprasath-r.github.io/tailwindcss-course-projects/shortly/index.html)        |
+| 09  |              [Grid](https://github.com/gokulprasath-r/tailwindcss-course-projects/tree/master/grid)               |         [Live Demo](https://gokulprasath-r.github.io/tailwindcss-course-projects/grid/index.html)         |
+| 10  |              [Flyo](https://github.com/gokulprasath-r/tailwindcss-course-projects/tree/master/flyo)               |         [Live Demo](https://gokulprasath-r.github.io/tailwindcss-course-projects/flyo/index.html)         |
