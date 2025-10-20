@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@source "./**/*.html";
+
+@theme {
+    --color-darkBlue: hsl(217, 28%, 15%);
+    --color-darkBlue1: hsl(218, 28%, 13%);
+    --color-darkBlue2: hsl(216, 53%, 9%);
+    --color-darkBlue3: hsl(219, 30%, 18%);
+    --color-accentCyan: hsl(176, 68%, 64%);
+    --color-accentBlue: hsl(198, 60%, 50%);
+    --color-lightRed: hsl(0, 100%, 63%);
+
+    --font-sans: "Raleway", sans-serif;
+    --font-opensans: "Open Sans", sans-serif;
+
+    --background-logo-dark-mode: url("../assets/logo-dark-mode.svg");
+    --background-logo-light-mode: url("../assets/logo-light-mode.svg");
+    --background-curvy-dark-mode: url("../assets/bg-curvy-dark-mode.svg");
+    --background-curvy-light-mode: url("../assets/bg-curvy-light-mode.svg");
+
+    --breakpoint-sm: 480px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 976px;
+    --breakpoint-xl: 1440px;
+}
