@@ -11,4 +11,4 @@
 | 07  |       [Loopstudios](https://github.com/gokulprasath-r/tailwindcss-course-projects/tree/master/loopstudios)        |     [Live Demo](https://gokulprasath-r.github.io/tailwindcss-course-projects/loopstudios/index.html)      |
 | 08  |            [Shortly](https://github.com/gokulprasath-r/tailwindcss-course-projects/tree/master/shorty)            |       [Live Demo](https://gokulprasath-r.github.io/tailwindcss-course-projects/shortly/index.html)        |
 | 09  |              [Grid](https://github.com/gokulprasath-r/tailwindcss-course-projects/tree/master/grid)               |         [Live Demo](https://gokulprasath-r.github.io/tailwindcss-course-projects/grid/index.html)         |
-| 10  |              [Flyo](https://github.com/gokulprasath-r/tailwindcss-course-projects/tree/master/flyo)               |         [Live Demo](https://gokulprasath-r.github.io/tailwindcss-course-projects/flyo/index.html)         |
+| 10  |              [Fylo](https://github.com/gokulprasath-r/tailwindcss-course-projects/tree/master/fylo)               |         [Live Demo](https://gokulprasath-r.github.io/tailwindcss-course-projects/fylo/index.html)         |
